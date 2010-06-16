@@ -182,9 +182,9 @@
 <text key="name:kr" text="Name:Kr"/>
 <text key="registry_name" text="Registry Name"/>
 <text key="address:country_national_code" text="Address:Country_National_Code"/>
-<text key="address:country" text="Address:Country"/>
-<text key="address:city" text="Address:City"/>
-<text key="address:ward" text="Address:Ward"/>
+<text key="address:country" text="Address:Pays"/>
+<text key="address:city" text="Addresse:Ville"/>
+<text key="address:ward" text="Addresse:Quartier"/>
 <text key="address:postal_code" text="Code postal"/>
 <text key="address:street" text="Addresse:Rue"/>
 <text key="address:housenumber" text="Addresse:Numéro"/>
@@ -201,13 +201,13 @@
 <text key="place:area-alternate" text="Place:Area - Alternate Name"/>
 <text key="description" text="Location Description"/>
 <text key="place:nearestlandmark" text="Nearest Landmark" />
-<text key="operator" text="Operateur" />
+<text key="operator" text="Opérateur" />
 <combo key="operator_type" text="operator type" values="government_facility-public,government_facility-not_public,private_for_profit,private_non_profit" />
-<text key="operator id" text="Operator ID" />
-<text key="phonebusiness" text="Téléphone professionnel"/>
-<text key="phoneemergency" text="Téléphone d'urgence" />
-<text key="email" text="Email"/>
-<text key="fax:" text="Fax"/>
+ <text key="operator id" text="Identifiant Opérateur" />
+ <text key="phonebusiness" text="Téléphone professionnel"/>
+ <text key="phoneemergency" text="Téléphone d'urgence" />
+ <text key="email" text="Email"/>
+ <text key="fax:" text="Fax"/>
 <combo key="type" text="Type" values="Specialized_Hopital,Hospital,Field Hospital,CS-Health_center,CAL-Health_center_with_beds,CSL-Health_center_without_beds,Dispensary,Other_type_of_health_facility,Unknown_type_of_facility,Unspecified" />
 <text key="Organization_Name" text="Name of the Organization Responsible for Health Facility"/>
 <combo key="Humanitarian:HealthFacility:OrganizationType" text="Type of Organization Responsible for Health Facility" values="government_facility-public,government_facility-not_public,private_for_profit,Faith-based_organization_(FBO),NGO_other_than_faith-based,Community,Unspecified" />
