@@ -1,256 +1,255 @@
 <presets>
-<group name="Humanitarian Features - Common Tags">
- <item name="ID">
-  <text key="id:uuid" text="ID:UUID"/>
-  <text key="id:uid" text="id:uid" />
-  <text key="id:ssid" text="id:ssid" />
- </item>
- <item name="Name">
-  <text key="name" text="Nom"/>
-  <text key="name:en" text="Name:En"/>
-  <text key="name:fr" text="Name:Fr"/>
-  <text key="name:kr" text="Name:Kr"/>
-  <text key="registry_name" text="Registry Name"/>
- </item>
- <item name="Address">
-  <text key="address:country_national_code" text="Addresse:Code Pays"/>
-  <text key="address:country" text="Addresse:Pays"/>
-  <text key="address:city" text="Addresse:Ville"/>
-  <text key="address:ward" text="Addresse:Quartier"/>
-  <text key="address:postal_code" text="Code postal"/>
-  <text key="address:street" text="Addresse:Rue"/>
-  <text key="address:housenumber" text="Addresse:Numéro"/>
- </item>
-<item name="Spatial Signature">
-<text key="pcode" text="PCODE"/>
-<text key="boundary=administrative" text="boundary=administrative"/>
-<text key="admin_level=1" text="Admin Level=1"/>
-<text key="boundary=administrative" text="boundary=administrative"/>
-<text key="admin_level=2" text="Admin Level=2"/>
-<text key="boundary=administrative" text="boundary=administrative"/>
-<text key="admin_level=3" text="Admin Level=3"/>
-<text key="boundary=administrative" text="boundary=administrative"/>
-<text key="admin_level=4" text="Admin Level=4"/>
-<text key="place:area" text="Place:Area"/>
-<text key="place:area-alternate" text="Place:Area - Alternate Name"/>
-<text key="description" text="Location Description"/>
-<text key="place:nearestlandmark" text="Nearest Landmark" />
-</item>
- <item name="Operating Institution">
-  <text key="operator" text="Opérateur" />
-  <combo key="operator_type" text="Type d'opérateur" values="government_facility-public,government_facility-not_public,private_for_profit,private_non_profit" />
-  <text key="operator id" text="Identifiant de l'opérateur" />
- </item>
- <item name="Contact Information">
-  <text key="phonebusiness" text="Numéro professionnel"/>
-  <text key="phoneemergency" text="Numéro d'urgence" />
-  <text key="email" text="Email"/>
-  <text key="fax" text="Fax"/>
- </item>
-<item name="Humanitarian Use">
-<combo key="humanitarian_use" text="Humanitarian Use" values="primary_hub,secondary_hub,final_delivery_point,operationally_significant_location,unspecified" />
-</item>
-<item name="Operational_status">
-<combo key="Operational_status" text="Operational Status" values="open,restricted,closed,unspecified" />
-<combo key="Operational_status_quality" text="Quality of Op. Status Info" values="reported,confirmed,unspecified" />
-</item>
- <item name="Surface">
-  <combo key="Surface" text="Surface" values="Pavé,Gravier/Gravillon,Terre/Sable,Non spécifié" />
-  <combo key="SurfaceCondition" text="SurfaceCondition" values="Rough_less_than_40kph,Smooth_greater_than_40kph,Snow/Ice,Mud,Unspecified" />
- </item>
- <item name="Practicability">
-  <combo key="Practicability" text="Practicabilité" values="non_motorized,motorbike,4wd_less_than_3.5mt,light_truck_less_than_10mt,heavy_truck_less_than_20mt,truck_+_trailer_greater_than_20mt,unspecified" />
- </item>
-<item name="Source">
-<text key="Geometry_source_type" text="Geometry Source Type" />
-<text key="Geometry_source_date" text="Geometry Source Date" />
-<text key="Attribute_source_type" text="Attribute Source Type" />
-<text key="Attribute_source_date" text="Attribute Source Date" />
-</item>
-</group>
-<group name="Humanitarian Features">
-<item name="IDP Camp">
+<group name="Thèmes humanitaires - Balises communes">
+<item name="ID">
 <text key="id:uuid" text="ID:UUID"/>
 <text key="id:uid" text="id:uid" />
 <text key ="id:ssid" text="id:ssid" />
-<text key="name" text="Name"/>
-<text key="name:en" text="Name:En"/>
-<text key="name:fr" text="Name:Fr"/>
-<text key="name:kr" text="Name:Kr"/>
-<text key="registry_name" text="Registry Name"/>
-<text key="address:country_national_code" text="Address:Country_National_Code"/>
-<text key="address:country" text="Address:Country"/>
-<text key="address:city" text="Address:City"/>
-<text key="address:ward" text="Address:Ward"/>
-<text key="address:postal_code" text="Postal Code"/>
-<text key="address:street" text="Address:Street"/>
-<text key="address:housenumber" text="Address:House_Number"/>
-<text key="pcode" text="PCODE"/>
-<text key="boundary=administrative" text="boundary=administrative"/>
-<text key="admin_level=1" text="Admin Level=1"/>
-<text key="boundary=administrative" text="boundary=administrative"/>
-<text key="admin_level=2" text="Admin Level=2"/>
-<text key="boundary=administrative" text="boundary=administrative"/>
-<text key="admin_level=3" text="Admin Level=3"/>
-<text key="boundary=administrative" text="boundary=administrative"/>
-<text key="admin_level=4" text="Admin Level=4"/>
-<text key="place:area" text="Place:Area"/>
-<text key="place:area-alternate" text="Place:Area - Alternate Name"/>
-<text key="description" text="Location Description"/>
-<text key="place:nearestlandmark" text="Nearest Landmark" />
-<text key="operator" text="Operator" />
-<combo key="operator_type" text="operator type" values="government_facility-public,government_facility-not_public,private_for_profit,private_non_profit" />
-<text key="operator id" text="Operator ID" />
-<text key="phonebusiness" text="Phone - Business"/>
-<text key="phoneemergency" text="Phone - Emergency" />
-<text key="email" text="Email"/>
-<text key="fax" text="Fax"/>
-<combo key="settlement_type" text="Type of Settlement" values="spontaneous,planned,unspecified" />
-<combo key="camp_management_agency" text="Camp Management Agency?" values="yes,no,unspecified" />
-<text key="camp_management_agency_name" text="Camp Management Agency Name" />
-<text key="pop_estimates_area" text="Population Estimates in Area" />
-<text key="pop_estimates_site_ind" text="Population Estimates in Site - Indviduals" />
-<text key="pop_estimates_site_hou" text="Population Estimates in Site - Households" />
-<combo key="camp_registered" text="Camp Registered?" values="yes,no,unspecified" />
-<text key="camp_registered_agency_name" text="Camp Regisration Agency" />	
-<combo key="camp_assessed" text="Camp Assessed?" values="yes,no,unspecified" />
-<text key="camp_assessment_agency_name" text="Camp Assessment Agency Name" />
-<combo key="Operational_status" text="Operational Status" values="open,restricted,closed,unspecified" />
-<combo key="Operational_status_quality" text="Quality of Op. Status Info" values="reported,confirmed,unspecified" />
-<text key="Geometry_source_type" text="Geometry Source Type" />
-<text key="Geometry_source_date" text="Geometry Source Date" />
-<text key="Attribute_source_type" text="Attribute Source Type" />
-<text key="Attribute_source_date" text="Attribute Source Date" />
 </item>
-<item name="School">
+<item name="Nom">
+<text key="name" text="Nom"/>
+<text key="name:en" text="Nom:En"/>
+<text key="name:fr" text="Nom:Fr"/>
+<text key="name:kr" text="Nom:Kr"/>
+<text key="registry_name" text="Nom de registre"/>
+</item>
+<item name="Adresse">
+<text key="address:country_national_code" text="Adresse:Code national du pays"/>
+<text key="address:country" text="Adresse:Pays"/>
+<text key="address:city" text="Adresse:Ville"/>
+<text key="address:ward" text="Adresse:Quartier"/>
+<text key="address:postal_code" text="Code postal"/>
+<text key="address:street" text="Adresse:Rue"/>
+<text key="address:housenumber" text="Adresse:Numéro de maison"/>
+</item>
+<item name="Emplacement">
+<text key="pcode" text="PCODE"/>
+<text key="boundary=administrative" text="limite=administrative"/>
+<text key="admin_level=1" text="Niveau administratif=1"/>
+<text key="boundary=administrative" text="limite=administrative"/>
+<text key="admin_level=2" text="Niveau administratif=2"/>
+<text key="boundary=administrative" text="limite=administrative"/>
+<text key="admin_level=3" text="Niveau administratif=3"/>
+<text key="boundary=administrative" text="limite=administrative"/>
+<text key="admin_level=4" text="Niveau administratif=4"/>
+<text key="place:area" text="Lieu:Zone"/>
+<text key="place:area-alternate" text="Lieu:Zone - Autre Nom"/>
+<text key="description" text="Description de la localisation"/>
+<text key="place:nearestlandmark" text="Point de repère le plus proche" />
+</item>
+<item name="Institution">
+<text key="operator" text="Opérateur" />
+<combo key="operator_type" text="Type d'opérateur" values="government_facility-public,government_facility-not_public,private_for_profit,private_non_profit" />
+<text key="operator id" text="Identifiant d'opérateur" />
+</item>
+<item name="Information de contact">
+<text key="phonebusiness" text="Téléphone - Professionnel"/>
+<text key="phoneemergency" text="Téléphone - Urgence" />
+<text key="email" text="Courriel"/>
+<text key="fax:" text="Fax"/>
+</item>
+<item name="Utilisation humanitaire">
+<combo key="humanitarian_use" text="Utilisation humanitaire" values="primary_hub,secondary_hub,final_delivery_point,operationally_significant_location,unspecified" />
+</item>
+<item name="Etat opérationnel">
+<combo key="Operational_status" text="Etat opérationnel" values="open,restricted,closed,unspecified" />
+<combo key="Operational_status_quality" text="Qualité de l'information d'état" values="reported,confirmed,unspecified" />
+</item>
+<item name="Surface">
+<combo key="Surface" text="Surface" values="Paved,Gravel,Dirt/Sand,Unspecified" />
+<combo key="SurfaceCondition" text="Etat de la surface" values="Rough_less_than_40kph,Smooth_greater_than_40kph,Snow/Ice,Mud,Unspecified" />
+</item>
+<item name="Praticabilité">
+<combo key="Practicability" text="Praticabilité" values="non_motorized,motorbike,4wd_less_than_3.5mt,light_truck_less_than_10mt,heavy_truck_less_than_20mt,truck_+_trailer_greater_than_20mt,unspecified" />
+</item>
+<item name="Source">
+<text key="Geometry_source_type" text="Type de source de géométrie" />
+<text key="Geometry_source_date" text="Date de source de géométrie" />
+<text key="Attribute_source_type" text="Type de source d'attribut" />
+<text key="Attribute_source_date" text="Date de source d'attribut" />
+</item>
+</group>
+<group name="Thèmes humanitaires">
+<item name="Camp de déplacés">
 <text key="id:uuid" text="ID:UUID"/>
 <text key="id:uid" text="id:uid" />
-<text key="id:ssid" text="id:ssid" />
-<text key="name" text="Name"/>
-<text key="name:en" text="Name:En"/>
-<text key="name:fr" text="Name:Fr"/>
-<text key="name:kr" text="Name:Kr"/>
-<text key="registry_name" text="Registry Name"/>
-<text key="address:country_national_code" text="Address:Country_National_Code"/>
-<text key="address:country" text="Addresse:Pays"/>
-<text key="address:city" text="Addresse:Ville"/>
-<text key="address:ward" text="Addresse:Quartier"/>
+<text key ="id:ssid" text="id:ssid" />
+<text key="name" text="Nom"/>
+<text key="name:en" text="Nom:En"/>
+<text key="name:fr" text="Nom:Fr"/>
+<text key="name:kr" text="Nom:Kr"/>
+<text key="registry_name" text="Nom de registre"/>
+<text key="address:country_national_code" text="Adresse:Code national du pays"/>
+<text key="address:country" text="Adresse:Pays"/>
+<text key="address:city" text="Adresse:Ville"/>
+<text key="address:ward" text="Adresse:Quartier"/>
 <text key="address:postal_code" text="Code postal"/>
-<text key="address:street" text="Addresse:Rue"/>
-<text key="address:housenumber" text="Addresse:Numéro"/>
+<text key="address:street" text="Adresse:Rue"/>
+<text key="address:housenumber" text="Adresse:Numéro de maison"/>
 <text key="pcode" text="PCODE"/>
-<text key="boundary=administrative" text="boundary=administrative"/>
-<text key="admin_level=1" text="Admin Level=1"/>
-<text key="boundary=administrative" text="boundary=administrative"/>
-<text key="admin_level=2" text="Admin Level=2"/>
-<text key="boundary=administrative" text="boundary=administrative"/>
-<text key="admin_level=3" text="Admin Level=3"/>
-<text key="boundary=administrative" text="boundary=administrative"/>
-<text key="admin_level=4" text="Admin Level=4"/>
-<text key="place:area" text="Place:Area"/>
-<text key="place:area-alternate" text="Place:Area - Alternate Name"/>
-<text key="description" text="Location Description"/>
-<text key="place:nearestlandmark" text="Nearest Landmark" />
-<text key="operator" text="Operator" />
-<combo key="operator_type" text="operator type" values="government_facility-public,government_facility-not_public,private_for_profit,private_non_profit" />
-<text key="operator id" text="Operator ID" />
-<text key="phonebusiness" text="Phone - Business"/>
-<text key="phoneemergency" text="Phone - Emergency" />
-<text key="email" text="Email"/>
-<text key="fax" text="Fax"/>
-<text key="scolar_district" text="School District" />
-<combo key="scolar_type" text="Type of School" values="Enseignement primaire - creche - jardin d'enfant,Enseignement primaire - ecole primaire,Enseignement primaire - ecole maternelle,Enseignement primaire - groupe scolaire,Enseignement secondaire - College,Enseignement secondaire - Lycee,Enseignement secondaire - Formation Professionnelle des Adultes (F.P.A.),Enseignement supérieur - faculte,Enseignement superieur - centre universitaire,Enseignement superieur - institut,Science - centre de recherche,Science - laboratoire,Science - observatoire,Science - station scientifique,Other (specify in Notes)" />
-<combo key="Operational_status" text="Operational Status" values="open,restricted,closed,unspecified" />
-<combo key="Operational_status_quality" text="Quality of Op. Status Info" values="reported,confirmed,unspecified" />
-<text key="Geometry_source_type" text="Geometry Source Type" />
-<text key="Geometry_source_date" text="Geometry Source Date" />
-<text key="Attribute_source_type" text="Attribute Source Type" />
-<text key="Attribute_source_date" text="Attribute Source Date" />
+<text key="boundary=administrative" text="limite=administrative"/>
+<text key="admin_level=1" text="Niveau administratif=1"/>
+<text key="boundary=administrative" text="limite=administrative"/>
+<text key="admin_level=2" text="Niveau administratif=2"/>
+<text key="boundary=administrative" text="limite=administrative"/>
+<text key="admin_level=3" text="Niveau administratif=3"/>
+<text key="boundary=administrative" text="limite=administrative"/>
+<text key="admin_level=4" text="Niveau administratif=4"/>
+<text key="place:area" text="Lieu:Zone"/>
+<text key="place:area-alternate" text="Lieu:Zone - Autre Nom"/>
+<text key="description" text="Description de la localisation"/>
+<text key="place:nearestlandmark" text="Point de repère le plus proche" />
+<text key="operator" text="Opérateur" />
+<combo key="operator_type" text="Type d'opérateur" values="government_facility-public,government_facility-not_public,private_for_profit,private_non_profit" />
+<text key="operator id" text="Identifiant d'opérateur" />
+<text key="phonebusiness" text="Téléphone - Professionnel"/>
+<text key="phoneemergency" text="Téléphone - Urgence" />
+<text key="email" text="Courriel"/>
+<text key="fax:" text="Fax"/>
+<combo key="settlement_type" text="Type d'habitat" values="spontaneous,planned,unspecified" />
+<combo key="camp_management_agency" text="Agence de gestion du camp ?" values="yes,no,unspecified" />
+<text key="camp_management_agency_name" text="Nom de l'agence de gestion du camp" />
+<text key="pop_estimates_area" text="Estimation de la population en surface" />
+<text key="pop_estimates_site_ind" text="Estimation de la population du site en personnes" />
+<text key="pop_estimates_site_hou" text="Estimation de la population du site en ménages" />
+<combo key="camp_registered" text="Camp enregistré ?" values="yes,no,unspecified" />
+<text key="camp_registered_agency_name" text="Nom de l'agence d'enregistrement du camp" />	
+<combo key="camp_assessed" text="Camp évalué ?" values="yes,no,unspecified" />
+<text key="camp_assessment_agency_name" text="Nom de l'agence d'évaluation du camp" />
+<combo key="Operational_status" text="Etat opérationnel" values="open,restricted,closed,unspecified" />
+<combo key="Operational_status_quality" text="Qualité de l'information d'état" values="reported,confirmed,unspecified" />
+<text key="Geometry_source_type" text="Type de source de géométrie" />
+<text key="Geometry_source_date" text="Date de source de géométrie" />
+<text key="Attribute_source_type" text="Type de source d'attribut" />
+<text key="Attribute_source_date" text="Date de source d'attribut" />
 </item>
- <item name="Electricity Network">
-  <combo key="classe" text="Classe" values="conduite,ligne_electrique,poste_transformation,pylone" />	
-  <text key="voltage:" text="Tension"/>
-  <text key="pos_sol:" text="Position par rapport au sol"/>
- </item>
- <item name="Health Facilities">
-  <text key="id:uuid" text="ID:UUID"/>
-  <text key="id:uid" text="id:uid" />
-  <text key ="id:ssid" text="id:ssid" />
-  <text key="name" text="Nom"/>
-  <text key="name:en" text="Name:En"/>
-  <text key="name:fr" text="Name:Fr"/>
-  <text key="name:kr" text="Name:Kr"/>
-  <text key="registry_name" text="Registry Name"/>
-  <text key="address:country_national_code" text="Address:Country_National_Code"/>
-  <text key="address:country" text="Addresse:Pays"/>
-  <text key="address:city" text="Addresse:Ville"/>
-  <text key="address:ward" text="Addresse:Quartier"/>
-  <text key="address:postal_code" text="Code postal"/>
-  <text key="address:street" text="Addresse:Rue"/>
-  <text key="address:housenumber" text="Addresse:Numéro"/>
-  <text key="pcode" text="PCODE"/>
-  <text key="boundary=administrative" text="boundary=administrative"/>
-  <text key="admin_level=1" text="Admin Level=1"/>
-  <text key="boundary=administrative" text="boundary=administrative"/>
-  <text key="admin_level=2" text="Admin Level=2"/>
-  <text key="boundary=administrative" text="boundary=administrative"/>
-  <text key="admin_level=3" text="Admin Level=3"/>
-  <text key="boundary=administrative" text="boundary=administrative"/>
-  <text key="admin_level=4" text="Admin Level=4"/>
-  <text key="place:area" text="Place:Area"/>
-  <text key="place:area-alternate" text="Place:Area - Alternate Name"/>
-  <text key="description" text="Location Description"/>
-  <text key="place:nearestlandmark" text="Nearest Landmark" />
-  <text key="operator" text="Opérateur" />
-  <combo key="operator_type" text="operator type" values="government_facility-public,government_facility-not_public,private_for_profit,private_non_profit" />
-  <text key="operator id" text="Identifiant Opérateur" />
-  <text key="phonebusiness" text="Numéro professionnel"/>
-  <text key="phoneemergency" text="Numéro d'urgence" />
-  <text key="email" text="Email"/>
-  <text key="fax" text="Fax"/>
-  <combo key="type" text="Type" values="Specialized_Hopital,Hospital,Field Hospital,CS-Health_center,CAL-Health_center_with_beds,CSL-Health_center_without_beds,Dispensary,Other_type_of_health_facility,Unknown_type_of_facility,Unspecified" />
-  <text key="Organization_Name" text="Name of the Organization Responsible for Health Facility"/>
-<combo key="Humanitarian:HealthFacility:OrganizationType" text="Type of Organization Responsible for Health Facility" values="government_facility-public,government_facility-not_public,private_for_profit,Faith-based_organization_(FBO),NGO_other_than_faith-based,Community,Unspecified" />
-<text key="HealthFacilityConstructionDescription" text="Construction Description"/>
-<text key="HealthFacilityServiceDescription" text="Service Description" />
-<text key="HealthFacilityCapacityDescription" text="Capacity Description" />
- <text key="HealthFacilityCapacityBeds" text="Nombre de lits" />
- <combo key="Operational_status" text="Operational Status" values="open,restricted,closed,unspecified" />
- <combo key="Operational_status_quality" text="Quality of Op. Status Info" values="reported,confirmed,unspecified" />
- <text key="Geometry_source_type" text="Geometry Source Type" />
- <text key="Geometry_source_date" text="Geometry Source Date" />
- <text key="Attribute_source_type" text="Attribute Source Type" />
- <text key="Attribute_source_date" text="Attribute Source Date" />
+<item name="Ecole">
+<text key="id:uuid" text="ID:UUID"/>
+<text key="id:uid" text="id:uid" />
+<text key ="id:ssid" text="id:ssid" />
+<text key="name" text="Nom"/>
+<text key="name:en" text="Nom:En"/>
+<text key="name:fr" text="Nom:Fr"/>
+<text key="name:kr" text="Nom:Kr"/>
+<text key="registry_name" text="Nom de registre"/>
+<text key="address:country_national_code" text="Adresse:Code national du pays"/>
+<text key="address:country" text="Adresse:Pays"/>
+<text key="address:city" text="Adresse:Ville"/>
+<text key="address:ward" text="Adresse:Quartier"/>
+<text key="address:postal_code" text="Code postal"/>
+<text key="address:street" text="Adresse:Rue"/>
+<text key="address:housenumber" text="Adresse:Numéro de maison"/>
+<text key="pcode" text="PCODE"/>
+<text key="boundary=administrative" text="limite=administrative"/>
+<text key="admin_level=1" text="Niveau administratif=1"/>
+<text key="boundary=administrative" text="limite=administrative"/>
+<text key="admin_level=2" text="Niveau administratif=2"/>
+<text key="boundary=administrative" text="limite=administrative"/>
+<text key="admin_level=3" text="Niveau administratif=3"/>
+<text key="boundary=administrative" text="limite=administrative"/>
+<text key="admin_level=4" text="Niveau administratif=4"/>
+<text key="place:area" text="Lieu:Zone"/>
+<text key="place:area-alternate" text="Lieu:Zone - Autre Nom"/>
+<text key="description" text="Description de la localisation"/>
+<text key="place:nearestlandmark" text="Point de repère le plus proche" />
+<text key="operator" text="Opérateur" />
+<combo key="operator_type" text="Type d'opérateur" values="government_facility-public,government_facility-not_public,private_for_profit,private_non_profit" />
+<text key="operator id" text="Identifiant d'opérateur" />
+<text key="phonebusiness" text="Téléphone - Professionnel"/>
+<text key="phoneemergency" text="Téléphone - Urgence" />
+<text key="email" text="Courriel"/>
+<text key="fax:" text="Fax"/>
+<text key="scolar_district" text="District scolaire" />
+<combo key="scolar_type" text="Type d'Ecole" values="Enseignement primaire - creche - jardin d'enfant,Enseignement primaire - ecole primaire,Enseignement primaire - ecole maternelle,Enseignement primaire - groupe scolaire,Enseignement secondaire - College,Enseignement secondaire - Lycee,Enseignement secondaire - Formation Professionnelle des Adultes (F.P.A.),Enseignement supérieur - faculte,Enseignement superieur - centre universitaire,Enseignement superieur - institut,Science - centre de recherche,Science - laboratoire,Science - observatoire,Science - station scientifique,Other (specify in Notes)" />
+<combo key="Operational_status" text="Etat opérationnel" values="open,restricted,closed,unspecified" />
+<combo key="Operational_status_quality" text="Qualité de l'information d'état" values="reported,confirmed,unspecified" />
+<text key="Geometry_source_type" text="Type de source de géométrie" />
+<text key="Geometry_source_date" text="Date de source de géométrie" />
+<text key="Attribute_source_type" text="Type de source d'attribut" />
+<text key="Attribute_source_date" text="Date de source d'attribut" />
 </item>
-<item name="Roads">
-<combo key="highway" text="Type"
-       values="primaire,secondaire,tertiaire,chemin piéton,piste,non classée" delete_if_empty="true" />
-<combo key="Operational_status" text="Operational Status" values="open,restricted,closed,unspecified" />
-<combo key="Operational_status_quality" text="Quality of Op. Status Info" values="reported,confirmed,unspecified" />
+<item name="Réseau électrique">
+<combo key="classe" text="Classe" values="conduite,ligne_electrique,poste_transformation,pylone" />	
+<text key="voltage:" text="Voltage"/>
+<text key="pos_sol:" text="Position par rapport au sol"/>
+</item>
+<item name="Etablissements de santé">
+<text key="id:uuid" text="ID:UUID"/>
+<text key="id:uid" text="id:uid" />
+<text key ="id:ssid" text="id:ssid" />
+<text key="name" text="Nom"/>
+<text key="name:en" text="Nom:En"/>
+<text key="name:fr" text="Nom:Fr"/>
+<text key="name:kr" text="Nom:Kr"/>
+<text key="registry_name" text="Nom de registre"/>
+<text key="address:country_national_code" text="Adresse:Code national du pays"/>
+<text key="address:country" text="Adresse:Pays"/>
+<text key="address:city" text="Adresse:Ville"/>
+<text key="address:ward" text="Adresse:Quartier"/>
+<text key="address:postal_code" text="Code postal"/>
+<text key="address:street" text="Adresse:Rue"/>
+<text key="address:housenumber" text="Adresse:Numéro de maison"/>
+<text key="pcode" text="PCODE"/>
+<text key="boundary=administrative" text="limite=administrative"/>
+<text key="admin_level=1" text="Niveau administratif=1"/>
+<text key="boundary=administrative" text="limite=administrative"/>
+<text key="admin_level=2" text="Niveau administratif=2"/>
+<text key="boundary=administrative" text="limite=administrative"/>
+<text key="admin_level=3" text="Niveau administratif=3"/>
+<text key="boundary=administrative" text="limite=administrative"/>
+<text key="admin_level=4" text="Niveau administratif=4"/>
+<text key="place:area" text="Lieu:Zone"/>
+<text key="place:area-alternate" text="Lieu:Zone - Autre Nom"/>
+<text key="description" text="Description de la localisation"/>
+<text key="place:nearestlandmark" text="Point de repère le plus proche" />
+<text key="operator" text="Opérateur" />
+<combo key="operator_type" text="Type d'opérateur" values="government_facility-public,government_facility-not_public,private_for_profit,private_non_profit" />
+<text key="operator id" text="Identifiant d'opérateur" />
+<text key="phonebusiness" text="Téléphone - Professionnel"/>
+<text key="phoneemergency" text="Téléphone - Urgence" />
+<text key="email" text="Courriel"/>
+<text key="fax:" text="Fax"/>
+<combo key="type" text="Type" values="Specialized_Hopital,Hospital,Field Hospital,CS-Health_center,CAL-Health_center_with_beds,CSL-Health_center_without_beds,Dispensary,Other_type_of_health_facility,Unknown_type_of_facility,Unspecified" />
+<text key="Organization_Name" text="Nom de l'organisation responsable de l'établissement de santé"/>
+<combo key="Humanitarian:HealthFacility:OrganizationType" text="Type d'organisation responsable de l'établissement de santé" values="government_facility-public,government_facility-not_public,private_for_profit,Faith-based_organization_(FBO),NGO_other_than_faith-based,Community,Unspecified" />
+<text key="HealthFacilityConstructionDescription" text="Description de la construction"/>
+<text key="HealthFacilityServiceDescription" text="Description du service" />
+<text key="HealthFacilityCapacityDescription" text="Description de la capacité" />
+<text key="HealthFacilityCapacityBeds" text="Nombre de lits" />
+<combo key="Operational_status" text="Etat opérationnel" values="open,restricted,closed,unspecified" />
+<combo key="Operational_status_quality" text="Qualité de l'information d'état" values="reported,confirmed,unspecified" />
+<text key="Geometry_source_type" text="Type de source de géométrie" />
+<text key="Geometry_source_date" text="Date de source de géométrie" />
+<text key="Attribute_source_type" text="Type de source d'attribut" />
+<text key="Attribute_source_date" text="Date de source d'attribut" />
+</item>
+<item name="Routes">
+<combo key="highway" text="Type" values="primary,secondary,tertiary,footway,track,unspecified" delete_if_empty="true" />
+<combo key="Operational_status" text="Etat opérationnel" values="open,restricted,closed,unspecified" />
+<combo key="Operational_status_quality" text="Qualité de l'information d'état" values="reported,confirmed,unspecified" />
 <combo key="Surface" text="Surface" values="Paved,Gravel,Dirt/Sand,Unspecified" />
-<combo key="SurfaceCondition" text="SurfaceCondition" values="Rough_less_than_40kph,Smooth_greater_than_40kph,Snow/Ice,Mud,Unspecified" />
-<combo key="Practicability" text="Practicability" values="non_motorized,motorbike,4wd_less_than_3.5mt,light_truck_less_than_10mt,heavy_truck_less_than_20mt,truck_+_trailer_greater_than_20mt,unspecified" />
-<text key="Geometry_source_type" text="Geometry Source Type" />
-<text key="Geometry_source_date" text="Geometry Source Date" />
-<text key="Attribute_source_type" text="Attribute Source Type" />
-<text key="Attribute_source_date" text="Attribute Source Date" />
+<combo key="SurfaceCondition" text="Etat de la surface" values="Rough_less_than_40kph,Smooth_greater_than_40kph,Snow/Ice,Mud,Unspecified" />
+<combo key="Practicability" text="Praticabilité" values="non_motorized,motorbike,4wd_less_than_3.5mt,light_truck_less_than_10mt,heavy_truck_less_than_20mt,truck_+_trailer_greater_than_20mt,unspecified" />
+<text key="Geometry_source_type" text="Type de source de géométrie" />
+<text key="Geometry_source_date" text="Date de source de géométrie" />
+<text key="Attribute_source_type" text="Type de source d'attribut" />
+<text key="Attribute_source_date" text="Date de source d'attribut" />
 </item>
-<item name="Transport Obstacles">
- <combo key="type" text="Type" values="pont endommagé,route endommaggé,éboulement,glissement de terrain,décombres,checkpoint,roadblock,unspecified" />
- <combo key="Operational_status" text="Operational Status" values="open,restricted,closed,unspecified" />
- <combo key="Operational_status_quality" text="Quality of Op. Status Info" values="reported,confirmed,unspecified" />
- <combo key="Practicability" text="Practicability" values="non_motorized,motorbike,4wd_less_than_3.5mt,light_truck_less_than_10mt,heavy_truck_less_than_20mt,truck_+_trailer_greater_than_20mt,unspecified" />
- <text key="Geometry_source_type" text="Geometry Source Type" />
- <text key="Geometry_source_date" text="Geometry Source Date" />
- <text key="Attribute_source_type" text="Attribute Source Type" />
- <text key="Attribute_source_date" text="Attribute Source Date" />
+<item name="Obstacles au Transport">
+<combo key="type" text="Type" values="bridge_damage,road_damage,landslide,mudslide,debris,checkpoint,roadblock,unspecified" />
+<combo key="Operational_status" text="Etat opérationnel" values="open,restricted,closed,unspecified" />
+<combo key="Operational_status_quality" text="Qualité de l'information d'état" values="reported,confirmed,unspecified" />
+<combo key="Practicability" text="Praticabilité" values="non_motorized,motorbike,4wd_less_than_3.5mt,light_truck_less_than_10mt,heavy_truck_less_than_20mt,truck_+_trailer_greater_than_20mt,unspecified" />
+<text key="Geometry_source_type" text="Type de source de géométrie" />
+<text key="Geometry_source_date" text="Date de source de géométrie" />
+<text key="Attribute_source_type" text="Type de source d'attribut" />
+<text key="Attribute_source_date" text="Date de source d'attribut" />
 </item>
-<item name="WaterPoint">
- <combo key="waterpoint_type" text="Type de point d'eau" values="robinet,source,citerne,bladder,non spécifié" />
- <text key="Geometry_source_type" text="Geometry Source Type" />
- <text key="Geometry_source_date" text="Geometry Source Date" />
- <text key="Attribute_source_type" text="Attribute Source Type" />
- <text key="Attribute_source_date" text="Attribute Source Date" />
+<item name="Point d'eau">
+<combo key="waterpoint_type" text="Type de point d'eau" values="tap,well,tank,bladder,unspecified" />
+<text key="Geometry_source_type" text="Type de source de géométrie" />
+<text key="Geometry_source_date" text="Date de source de géométrie" />
+<text key="Attribute_source_type" text="Type de source d'attribut" />
+<text key="Attribute_source_date" text="Date de source d'attribut" />
 </item>
 </group>
 </presets>
