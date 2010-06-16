@@ -169,7 +169,7 @@
 </item>
 <item name="Electricity Network">
 <combo key="classe" text="Classe" values="conduite,ligne_electrique,poste_transformation,pylone" />	
-<text key="voltage:" text="Voltage"/>
+<text key="voltage:" text="Tension"/>
 <text key="pos_sol:" text="Position par rapport au sol"/>
 </item>
 <item name="Health Facilities">
@@ -185,9 +185,9 @@
 <text key="address:country" text="Address:Country"/>
 <text key="address:city" text="Address:City"/>
 <text key="address:ward" text="Address:Ward"/>
-<text key="address:postal_code" text="Postal Code"/>
-<text key="address:street" text="Address:Street"/>
-<text key="address:housenumber" text="Address:House_Number"/>
+<text key="address:postal_code" text="Code postal"/>
+<text key="address:street" text="Addresse:Rue"/>
+<text key="address:housenumber" text="Addresse:Numéro"/>
 <text key="pcode" text="PCODE"/>
 <text key="boundary=administrative" text="boundary=administrative"/>
 <text key="admin_level=1" text="Admin Level=1"/>
@@ -201,11 +201,11 @@
 <text key="place:area-alternate" text="Place:Area - Alternate Name"/>
 <text key="description" text="Location Description"/>
 <text key="place:nearestlandmark" text="Nearest Landmark" />
-<text key="operator" text="Operator" />
+<text key="operator" text="Operateur" />
 <combo key="operator_type" text="operator type" values="government_facility-public,government_facility-not_public,private_for_profit,private_non_profit" />
 <text key="operator id" text="Operator ID" />
-<text key="phonebusiness" text="Phone - Business"/>
-<text key="phoneemergency" text="Phone - Emergency" />
+<text key="phonebusiness" text="Téléphone professionnel"/>
+<text key="phoneemergency" text="Téléphone d'urgence" />
 <text key="email" text="Email"/>
 <text key="fax:" text="Fax"/>
 <combo key="type" text="Type" values="Specialized_Hopital,Hospital,Field Hospital,CS-Health_center,CAL-Health_center_with_beds,CSL-Health_center_without_beds,Dispensary,Other_type_of_health_facility,Unknown_type_of_facility,Unspecified" />
@@ -214,16 +214,17 @@
 <text key="HealthFacilityConstructionDescription" text="Construction Description"/>
 <text key="HealthFacilityServiceDescription" text="Service Description" />
 <text key="HealthFacilityCapacityDescription" text="Capacity Description" />
-<text key="HealthFacilityCapacityBeds" text="Number of Beds" />
-<combo key="Operational_status" text="Operational Status" values="open,restricted,closed,unspecified" />
-<combo key="Operational_status_quality" text="Quality of Op. Status Info" values="reported,confirmed,unspecified" />
-<text key="Geometry_source_type" text="Geometry Source Type" />
-<text key="Geometry_source_date" text="Geometry Source Date" />
-<text key="Attribute_source_type" text="Attribute Source Type" />
-<text key="Attribute_source_date" text="Attribute Source Date" />
+ <text key="HealthFacilityCapacityBeds" text="Nombre de lits" />
+ <combo key="Operational_status" text="Operational Status" values="open,restricted,closed,unspecified" />
+ <combo key="Operational_status_quality" text="Quality of Op. Status Info" values="reported,confirmed,unspecified" />
+ <text key="Geometry_source_type" text="Geometry Source Type" />
+ <text key="Geometry_source_date" text="Geometry Source Date" />
+ <text key="Attribute_source_type" text="Attribute Source Type" />
+ <text key="Attribute_source_date" text="Attribute Source Date" />
 </item>
 <item name="Roads">
-<combo key="highway" text="Type" values="primary,secondary,tertiary,footway,track,unspecified" delete_if_empty="true" />
+<combo key="highway" text="Type"
+       values="primaire,secondaire,tertiaire,chemin piéton,piste,non classée" delete_if_empty="true" />
 <combo key="Operational_status" text="Operational Status" values="open,restricted,closed,unspecified" />
 <combo key="Operational_status_quality" text="Quality of Op. Status Info" values="reported,confirmed,unspecified" />
 <combo key="Surface" text="Surface" values="Paved,Gravel,Dirt/Sand,Unspecified" />
@@ -235,21 +236,21 @@
 <text key="Attribute_source_date" text="Attribute Source Date" />
 </item>
 <item name="Transport Obstacles">
-<combo key="type" text="Type" values="bridge_damage,road_damage,landslide,mudslide,debris,checkpoint,roadblock,unspecified" />
-<combo key="Operational_status" text="Operational Status" values="open,restricted,closed,unspecified" />
-<combo key="Operational_status_quality" text="Quality of Op. Status Info" values="reported,confirmed,unspecified" />
-<combo key="Practicability" text="Practicability" values="non_motorized,motorbike,4wd_less_than_3.5mt,light_truck_less_than_10mt,heavy_truck_less_than_20mt,truck_+_trailer_greater_than_20mt,unspecified" />
-<text key="Geometry_source_type" text="Geometry Source Type" />
-<text key="Geometry_source_date" text="Geometry Source Date" />
-<text key="Attribute_source_type" text="Attribute Source Type" />
-<text key="Attribute_source_date" text="Attribute Source Date" />
+ <combo key="type" text="Type" values="pont endommagé,route endommaggé,éboulement,glissement de terrain,décombres,checkpoint,roadblock,unspecified" />
+ <combo key="Operational_status" text="Operational Status" values="open,restricted,closed,unspecified" />
+ <combo key="Operational_status_quality" text="Quality of Op. Status Info" values="reported,confirmed,unspecified" />
+ <combo key="Practicability" text="Practicability" values="non_motorized,motorbike,4wd_less_than_3.5mt,light_truck_less_than_10mt,heavy_truck_less_than_20mt,truck_+_trailer_greater_than_20mt,unspecified" />
+ <text key="Geometry_source_type" text="Geometry Source Type" />
+ <text key="Geometry_source_date" text="Geometry Source Date" />
+ <text key="Attribute_source_type" text="Attribute Source Type" />
+ <text key="Attribute_source_date" text="Attribute Source Date" />
 </item>
 <item name="WaterPoint">
-<combo key="waterpoint_type" text="Waterpoint Type" values="tap,well,tank,bladder,unspecified" />
-<text key="Geometry_source_type" text="Geometry Source Type" />
-<text key="Geometry_source_date" text="Geometry Source Date" />
-<text key="Attribute_source_type" text="Attribute Source Type" />
-<text key="Attribute_source_date" text="Attribute Source Date" />
+ <combo key="waterpoint_type" text="Type de point d'eau" values="robinet,source,citerne,bladder,non spécifié" />
+ <text key="Geometry_source_type" text="Geometry Source Type" />
+ <text key="Geometry_source_date" text="Geometry Source Date" />
+ <text key="Attribute_source_type" text="Attribute Source Type" />
+ <text key="Attribute_source_date" text="Attribute Source Date" />
 </item>
 </group>
 </presets>
